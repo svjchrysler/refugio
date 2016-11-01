@@ -78,13 +78,13 @@
 
     {% endblock %}
 
+    <div class="container">
+        {% block content %}
 
-    {% block content %}
+            <h5>Este es el contenido del archivo base</h5>
 
-        <h5>Este es el contenido del archivo base</h5>
-
-    {% endblock %}
-
+        {% endblock %}
+    </div>
 
     <script src="{% static 'js/jquery.min.js' %}"></script>
     <script src="{% static 'js/bootstrap.min.js' %}"></script>
